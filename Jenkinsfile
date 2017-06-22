@@ -17,7 +17,7 @@ node('docker') {
     if (env.BRANCH_NAME == 'master') {
         stage('Push Images') {
             def commitId = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
-            docker.withRegistry('https://docker-registry.usersys.redhat.com/') {
+            docker.withRegistry('https://registry.devshift.net/') {
                 image.push('latest')
                 image.push(commitId)
             }
