@@ -1,4 +1,4 @@
-FROM docker-registry.usersys.redhat.com/bayesian/cucos-worker
+FROM registry.devshift.net/bayesian/cucos-worker
 
 RUN pip3 install --upgrade awscli &&\
     mkdir -p /tmp/cvedb/ &&\
