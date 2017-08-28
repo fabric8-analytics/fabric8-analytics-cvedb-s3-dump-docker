@@ -1,4 +1,4 @@
-FROM registry.devshift.net/bayesian/cucos-worker
+FROM registry.devshift.net/fabric8-analytics/f8a-worker-base
 
 RUN pip3 install --upgrade awscli &&\
     mkdir -p /tmp/cvedb/ &&\
