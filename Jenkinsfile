@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+
 @Library('github.com/msrb/cicd-pipeline-helpers') _
 
 node('docker') {
