@@ -13,6 +13,3 @@ upload ()
 
 # OWASP dependency-check
 upload "/tmp/cvedb/dc.h2.db.zip" "${DEPLOYMENT_PREFIX}-bayesian-core-owasp-dep-check"
-
-# Snyk vulndb
-upload "/tmp/cvedb/vulndb.json" "${DEPLOYMENT_PREFIX}-bayesian-core-snyk"
