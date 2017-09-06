@@ -12,4 +12,4 @@ upload ()
 }
 
 # OWASP dependency-check
-upload "/tmp/cvedb/dc.h2.db.zip" "${DEPLOYMENT_PREFIX}-bayesian-core-owasp-dep-check"
+upload "/tmp/cvedb/dc.h2.db.zip" "${DEPLOYMENT_PREFIX}-bayesian-core-vuln-db"
